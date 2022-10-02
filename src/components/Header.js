@@ -2,26 +2,29 @@ const Header = () => {
   return (
     <div className="Header">
       <header className="calibre mt-24 ml-48">
-        <div class="text-[#d2d8ff] text-l tracking-normal font-light fade fadeOut pb-10">
+        <div class="text-[#d2d8ff] text-sm tracking-normal font-light fade fadeOut pb-10">
           Hello, my name is
         </div>
 
-        <div class="text-white text-8xl font-semibold fade fadeOut pb-2">
+        <div class="text-white text-7xl font-semibold fade fadeOut pb-2">
           Adrian Hards.
         </div>
 
-        <div class="text-[#F7C58A] text-7xl fade fadeOut pb-6 w-[690px]">
+        <div class="text-[#F7C58A] text-6xl fade fadeOut pb-6 w-[690px]">
           I build, and teach about,
           web things.
         </div>
 
-        <div class="text-[#d2d8ff] text-xl fade fadeOut font-light pb-8 w-[670px]">
-          Former research biologist, I transitioned to web development and am now working as a teacher at <span id="wag" class="link-underline text-[#F7C58A]">Le Wagon</span>.
-          Want to collaborate or need an extra hand at a hackathon? Let's get in touch.
+        <div class="text-[#d2d8ff] text-l fade fadeOut font-light pb-8 w-[660px]">
+          Former research biologist, I transitioned to web development and am now working as a teacher at &nbsp;
+          <span id="wag" class="link-underline text-[#F7C58A]">
+            <a href="https://www.lewagon.com/">Le Wagon</a>
+          </span>.
+          Want to collaborate or need an extra hand at a hackathon? Let's get in touch!
         </div>
 
-        <button class="fade fadeOut text-md font-light text-[#F7C58A] px-4 py-2 border border-[#F7C58A] hover:bg-[#F7C58A]/10 rounded">
-          Say hi!
+        <button class="fade fadeOut text-sm font-light text-[#F7C58A] px-4 py-2 border border-[#F7C58A] hover:bg-[#F7C58A]/10 rounded">
+          Say hi
         </button>
       </header>
 
