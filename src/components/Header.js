@@ -20,7 +20,7 @@ const Header = () => {
           Want to collaborate or need an extra hand at a hackathon? Let's get in touch.
         </div>
 
-        <button class="fade fadeOut text-md font-light text-[#F7C58A] px-6 py-2 border border-[#F7C58A] rounded">
+        <button class="fade fadeOut text-md font-light text-[#F7C58A] px-4 py-2 border border-[#F7C58A] hover:bg-[#F7C58A]/10 rounded">
           Say hi!
         </button>
       </header>
