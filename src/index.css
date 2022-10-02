@@ -4,7 +4,7 @@
 
 @layer base {
   body {
-    @apply bg-slate-900;
+    @apply bg-[#4932D5];
   }
 }
 
@@ -16,3 +16,10 @@
   font-family: 'Calibre', sans-serif;
 }
 
+section {
+	display: grid;
+	place-items: center;
+	height: 100vh;
+	font-size: 32px;
+	font-weight: bold;
+}
