@@ -18,8 +18,8 @@ const Nav = () => {
 
   const item = {
     hidden: { opacity: 0, y: -50 },
-    show: { opacity: 1, y: 0 },
-}
+    show: { opacity: 1, y: 0 }
+  }
 
   return (
     <div className="Nav">
