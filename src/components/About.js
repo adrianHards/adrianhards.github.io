@@ -19,6 +19,10 @@ function About() {
       initial="hidden"
     >
 
+      <div class="h-screen">
+        Hello
+      </div>
+
     </motion.div>
   );
 }

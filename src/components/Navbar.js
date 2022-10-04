@@ -1,7 +1,6 @@
 import { motion } from "framer-motion"
-import * as Scroll from 'react-scroll';
 import { useState } from 'react';
-let Link = Scroll.Link;
+import { Link } from 'react-scroll'
 
 function Nav() {
   const [ faded, setFade ] = useState(false)
@@ -54,16 +53,18 @@ function Nav() {
 
               <motion.div variants={item}>
                 <div class="text-[#F7C58A] mr-9">
-                  <Link activeClass="active" smooth spy to="nav" >
+                  <Link activeClass="active" smooth spy to="about" >
                     <span class="text-[#d2d8ff] hover:text-[#F7C58A] link-underline hover:cursor-pointer">About</span>
                   </Link>
                 </div>
               </motion.div>
 
               <motion.div variants={item}>
-                <a href="#responsive-header" class="text-[#F7C58A] mr-9">
-                  <span class="text-[#d2d8ff] hover:text-[#F7C58A] link-underline hover:cursor-pointer">Projects</span>
-                </a>
+                <Link activeClass="active" smooth spy to="projects" >
+                  <a href="#responsive-header" class="text-[#F7C58A] mr-9">
+                    <span class="text-[#d2d8ff] hover:text-[#F7C58A] link-underline hover:cursor-pointer">Projects</span>
+                  </a>
+                </Link>
               </motion.div>
 
               <motion.div variants={item}>

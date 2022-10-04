@@ -23,7 +23,7 @@ function Header() {
             Full Stack <br /> Web Developer
           </div>
           <div class="text-[#d2d8ff] text-l  font-light pb-8 w-[660px]">
-            Passionate about teaching, collaborating and creating exciting interactive web experiences. <br />
+            I'm passionate about teaching, collaborating and creating exciting interactive web experiences. <br />
             Want to collaborate or need an extra hand at a hackathon? Get in touch!
           </div>
           <button class="text-sm font-light text-[#F7C58A] px-4 py-2 border border-[#F7C58A] hover:bg-[#F7C58A]/10 rounded">
