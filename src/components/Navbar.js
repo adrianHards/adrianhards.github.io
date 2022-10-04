@@ -55,34 +55,28 @@ function Nav() {
               <motion.div variants={item}>
                 <div class="text-[#F7C58A] mr-9">
                   <Link activeClass="active" smooth spy to="nav" >
-                    01. <span class="text-[#d2d8ff] hover:text-[#F7C58A] link-underline hover:cursor-pointer">About</span>
+                    <span class="text-[#d2d8ff] hover:text-[#F7C58A] link-underline hover:cursor-pointer">About</span>
                   </Link>
                 </div>
               </motion.div>
 
               <motion.div variants={item}>
                 <a href="#responsive-header" class="text-[#F7C58A] mr-9">
-                  02. <span class="text-[#d2d8ff] hover:text-[#F7C58A] link-underline hover:cursor-pointer">Experience</span>
+                  <span class="text-[#d2d8ff] hover:text-[#F7C58A] link-underline hover:cursor-pointer">Projects</span>
                 </a>
               </motion.div>
 
               <motion.div variants={item}>
                 <a href="#responsive-header" class="text-[#F7C58A] mr-9">
-                  03. <span class="text-[#d2d8ff] hover:text-[#F7C58A] link-underline hover:cursor-pointer">Work</span>
+                  <span class="text-[#d2d8ff] hover:text-[#F7C58A] link-underline hover:cursor-pointer">Contact</span>
                 </a>
               </motion.div>
 
-              <motion.div variants={item}>
-                <a href="#responsive-header" class="text-[#F7C58A] mr-9">
-                  04. <span class="text-[#d2d8ff] hover:text-[#F7C58A] link-underline hover:cursor-pointer">Contact</span>
-                </a>
-              </motion.div>
-
-              <motion.div variants={item}>
+              {/* <motion.div variants={item}>
                 <a href="#responsive-header" class="font-light px-4 py-2 -mt-2 border rounded text-[#F7C58A] border-[#F7C58A] hover:bg-[#F7C58A]/10">
                   Résumé
                 </a>
-              </motion.div>
+              </motion.div> */}
             </div>
           </div>
         </motion.div>

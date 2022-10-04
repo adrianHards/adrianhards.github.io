@@ -14,7 +14,7 @@ function Header() {
       >
         <header className="calibre mt-24 h-screen">
           <div class="text-[#d2d8ff] text-sm tracking-normal font-light pb-10">
-            Hello, my name is
+            Zdravo, my name is
           </div>
           <div class="text-white text-7xl font-semibold  pb-2">
             Adrian Hards.
@@ -23,7 +23,7 @@ function Header() {
             I build, and teach about, web things.
           </div>
           <div class="text-[#d2d8ff] text-l  font-light pb-8 w-[660px]">
-            Passionate about teaching, experimentation
+            Full stack web developer with a preference for the front end Passionate about teaching, experimentation
             Former research biologist, I transitioned to web development and am now working as a teacher at &nbsp;
             <span id="wag" class="link-underline text-[#F7C58A]">
               <a href="https://www.lewagon.com/">Le Wagon</a>
