@@ -5,7 +5,7 @@ import Projects from './components/Projects';
 
 function App() {
   return (
-    <div className="App" class="ml-48">
+    <div className="App">
       <Nav />
       <Header />
       <About />

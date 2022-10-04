@@ -2,7 +2,7 @@ import { motion } from "framer-motion"
 
 function Header() {
   return (
-    <div className="Header">
+    <div className="Header ml-48">
       <motion.div
       initial={{ opacity: 0, y: 70 }}
       animate={{ opacity: 1, y: 0 }}

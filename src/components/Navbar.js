@@ -32,18 +32,18 @@ function Nav() {
   }
 
   return (
-    <div class="sticky top-8">
+    <nav class="sticky top-0 bg-[#4932D5] pt-8 pb-4">
         <motion.div
         variants={container}
         initial="hidden"
         animate="show"
         >
-          <nav class="text-xs mt-8 mr-8">
+          <div class="text-xs mt-8 mr-8">
             <div class="flex justify-end">
 
-              <div class="absolute left-0 -mt-2">
-                <div class={faded ? "transition-opacity duration-300 ease-in opacity-100" : "opacity-0"}>
-                    <span class="text-[#d2d8ff] text-lg font-bold"
+              <div class="absolute left-48 -mt-2 cursor-default">
+                <div class={faded ? "transition-opacity duration-300 ease-in opacity-100 hover:cursor-pointer" : "opacity-0"}>
+                    <span class="text-white text-lg font-bold"
                       onClick={() => {
                           window.scrollTo({top: 0, left: 0, behavior: 'smooth'});
                         }
@@ -55,26 +55,26 @@ function Nav() {
               <motion.div variants={item}>
                 <div class="text-[#F7C58A] mr-9">
                   <Link activeClass="active" smooth spy to="nav" >
-                    01. <span class="text-[#d2d8ff] hover:text-[#F7C58A] link-underline">About</span>
+                    01. <span class="text-[#d2d8ff] hover:text-[#F7C58A] link-underline hover:cursor-pointer">About</span>
                   </Link>
                 </div>
               </motion.div>
 
               <motion.div variants={item}>
                 <a href="#responsive-header" class="text-[#F7C58A] mr-9">
-                  02. <span class="text-[#d2d8ff] hover:text-[#F7C58A] link-underline">Experience</span>
+                  02. <span class="text-[#d2d8ff] hover:text-[#F7C58A] link-underline hover:cursor-pointer">Experience</span>
                 </a>
               </motion.div>
 
               <motion.div variants={item}>
                 <a href="#responsive-header" class="text-[#F7C58A] mr-9">
-                  03. <span class="text-[#d2d8ff] hover:text-[#F7C58A] link-underline">Work</span>
+                  03. <span class="text-[#d2d8ff] hover:text-[#F7C58A] link-underline hover:cursor-pointer">Work</span>
                 </a>
               </motion.div>
 
               <motion.div variants={item}>
                 <a href="#responsive-header" class="text-[#F7C58A] mr-9">
-                  04. <span class="text-[#d2d8ff] hover:text-[#F7C58A] link-underline">Contact</span>
+                  04. <span class="text-[#d2d8ff] hover:text-[#F7C58A] link-underline hover:cursor-pointer">Contact</span>
                 </a>
               </motion.div>
 
@@ -84,9 +84,9 @@ function Nav() {
                 </a>
               </motion.div>
             </div>
-          </nav>
+          </div>
         </motion.div>
-    </div>
+    </nav>
   );
 }
 export default Nav;

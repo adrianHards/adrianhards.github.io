@@ -28,7 +28,7 @@ function Projects() {
       animate={controls}
       initial="hidden"
     >
-      <div class="h-screen flow-root mr-48">
+      <div class="h-screen flow-root ml-48 mr-48">
         <motion.div variants={fromLeft}>
           <div class="float-left">
             <div class="project-card h-16 w-16 bg-white"></div>
