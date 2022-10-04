@@ -14,21 +14,17 @@ function Header() {
       >
         <header className="calibre mt-24 h-screen">
           <div class="text-[#d2d8ff] text-sm tracking-normal font-light pb-10">
-            Zdravo, my name is
+            Zdravo, I'm
           </div>
           <div class="text-white text-7xl font-semibold  pb-2">
             Adrian Hards.
           </div>
-          <div class="text-[#F7C58A] text-6xl  pb-6 w-[690px]">
-            I build, and teach about, web things.
+          <div class="text-[#F7C58A] text-6xl  pb-6">
+            Full Stack <br /> Web Developer
           </div>
           <div class="text-[#d2d8ff] text-l  font-light pb-8 w-[660px]">
-            Full stack web developer with a preference for the front end Passionate about teaching, experimentation
-            Former research biologist, I transitioned to web development and am now working as a teacher at &nbsp;
-            <span id="wag" class="link-underline text-[#F7C58A]">
-              <a href="https://www.lewagon.com/">Le Wagon</a>
-            </span>
-            . Want to collaborate or need an extra hand at a hackathon? Let's get in touch!
+            Passionate about teaching, collaborating and creating exciting interactive web experiences. <br />
+            Want to collaborate or need an extra hand at a hackathon? Get in touch!
           </div>
           <button class="text-sm font-light text-[#F7C58A] px-4 py-2 border border-[#F7C58A] hover:bg-[#F7C58A]/10 rounded">
             Say hi
@@ -40,6 +36,12 @@ function Header() {
 }
 
 export default Header;
+
+
+// Changed careers to pursue passions in coding and teaching make the world a better place through technology and education
+
+
+
 
 
 

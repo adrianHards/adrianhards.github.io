@@ -38,7 +38,7 @@ function Nav() {
         initial="hidden"
         animate="show"
         >
-          <div class="text-xs mt-8 mr-8">
+          <div class="text-sm mt-8 mr-8">
             <div class="flex justify-end">
 
               <div class="absolute left-48 -mt-2 cursor-default">
@@ -84,9 +84,5 @@ function Nav() {
   );
 }
 export default Nav;
-
-
-
-
 
 
