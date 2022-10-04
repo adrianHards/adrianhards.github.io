@@ -8,11 +8,11 @@ function Header() {
       animate={{ opacity: 1, y: 0 }}
       transition={{
         ease: "easeInOut",
-        duration: 0.7,
+        duration: 0.6,
         delay: 0.95,
       }}
       >
-        <header className="calibre mt-24 ml-48">
+        <header className="calibre mt-24 h-screen">
           <div class="text-[#d2d8ff] text-sm tracking-normal font-light fade fadeOut pb-10">
             Hello, my name is
           </div>

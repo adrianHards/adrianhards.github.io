@@ -29,3 +29,9 @@
   background-size: 100% 1px;
   background-position: 0 95%
 }
+
+.square {
+  width: 50%;
+  padding-bottom: 50%;
+  background-color: teal;
+}
