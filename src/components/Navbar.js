@@ -1,8 +1,20 @@
 import { motion } from "framer-motion"
 import * as Scroll from 'react-scroll';
+import { useState } from 'react';
 let Link = Scroll.Link;
 
-const Nav = () => {
+function Nav() {
+  const [ fix, setFix ] = useState(false)
+  const setFixed = () => {
+    if (window.scrollY) {
+      setFix(true)
+    } else {
+      setFix(false)
+    }
+  }
+
+  window.addEventListener("scroll", setFixed)
+
   const container = {
     hidden: { opacity: 0, y: -50 },
     show: {
@@ -20,7 +32,7 @@ const Nav = () => {
   }
 
   return (
-    <div className="Nav">
+    <div className={fix ? 'navbar sticky top-8' : 'navbar'}>
         <motion.div
         variants={container}
         initial="hidden"
