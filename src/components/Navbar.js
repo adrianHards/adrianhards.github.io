@@ -4,16 +4,16 @@ import { useState } from 'react';
 let Link = Scroll.Link;
 
 function Nav() {
-  const [ fix, setFix ] = useState(false)
-  const setFixed = () => {
-    if (window.scrollY) {
-      setFix(true)
+  const [ faded, setFade ] = useState(false)
+  const setFaded = () => {
+    if (window.scrollY >= 550) {
+      setFade(true)
     } else {
-      setFix(false)
+      setFade(false)
     }
   }
 
-  window.addEventListener("scroll", setFixed)
+  window.addEventListener("scroll", setFaded)
 
   const container = {
     hidden: { opacity: 0, y: -50 },
@@ -32,24 +32,26 @@ function Nav() {
   }
 
   return (
-    <div className={fix ? 'navbar sticky top-8' : 'navbar'}>
+    <div class="sticky top-8">
         <motion.div
         variants={container}
         initial="hidden"
         animate="show"
         >
-          <nav class="fade fadeOut text-xs mt-8 mr-8">
-
-            <div class="absolute hidden">
-                <span class="text-[#d2d8ff] text-lg font-bold"
-                  onClick={() => {
-                      window.scrollTo({top: 0, left: 0, behavior: 'smooth'});
-                    }
-                  }
-                >Adrian Hards</span>
-            </div>
-
+          <nav class="text-xs mt-8 mr-8">
             <div class="flex justify-end">
+
+              <div class="absolute left-0 -mt-2">
+                <div class={faded ? "transition-opacity duration-300 ease-in opacity-100" : "opacity-0"}>
+                    <span class="text-[#d2d8ff] text-lg font-bold"
+                      onClick={() => {
+                          window.scrollTo({top: 0, left: 0, behavior: 'smooth'});
+                        }
+                      }
+                    >Adrian Hards</span>
+                </div>
+              </div>
+
               <motion.div variants={item}>
                 <div class="text-[#F7C58A] mr-9">
                   <Link activeClass="active" smooth spy to="nav" >
