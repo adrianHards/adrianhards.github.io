@@ -32,7 +32,7 @@ function Nav() {
   }
 
   return (
-    <nav class="sticky top-0 bg-[#4932D5] pt-8 pb-4">
+    <nav class="sticky top-0 bg-[#4932D5]/70 pt-2 pb-4">
         <motion.div
         variants={container}
         initial="hidden"
