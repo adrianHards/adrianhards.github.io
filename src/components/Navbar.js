@@ -42,7 +42,7 @@ function Nav() {
             <div class="flex justify-end">
 
               <div class="absolute left-48 -mt-2 cursor-default">
-                <div class={faded ? "transition-opacity duration-300 ease-in opacity-100 hover:cursor-pointer" : "opacity-0"}>
+                <div class={faded ? "transition-opacity duration-300 ease-in opacity-100 hover:cursor-pointer" : "transition-opacity duration-300 ease-out opacity-0"}>
                     <span class="text-white text-lg font-bold"
                       onClick={() => {
                           window.scrollTo({top: 0, left: 0, behavior: 'smooth'});
