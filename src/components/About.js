@@ -19,8 +19,8 @@ function About() {
       initial="hidden"
     >
 
-      <div class="h-screen">
-        Hello
+      <div class="flex items-center justify-center h-screen">
+        test
       </div>
 
     </motion.div>

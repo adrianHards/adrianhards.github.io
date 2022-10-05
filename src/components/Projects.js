@@ -28,18 +28,20 @@ function Projects() {
       animate={controls}
       initial="hidden"
     >
-      <div class="h-screen flow-root ml-48 mr-48">
-        <motion.div variants={fromLeft}>
-          <div class="float-left">
-            <div class="project-card h-16 w-16 bg-white"></div>
-          </div>
-        </motion.div>
+      <div class="h-screen m-48">
+        <div class="flow-root ml-48 mr-48 pt-48">
+          <motion.div variants={fromLeft}>
+            <div class="float-left">
+              <div class="project-card h-16 w-16 bg-white"></div>
+            </div>
+          </motion.div>
 
-        <motion.div variants={fromRight}>
-          <div class="float-right">
-            <div class="project-card h-16 w-16 bg-white"></div>
-          </div>
-        </motion.div>
+          <motion.div variants={fromRight}>
+            <div class="float-right">
+              <div class="project-card h-16 w-16 bg-white"></div>
+            </div>
+          </motion.div>
+        </div>
       </div>
 
     </motion.div>

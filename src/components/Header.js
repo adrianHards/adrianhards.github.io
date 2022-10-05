@@ -22,13 +22,13 @@ function Header() {
           <div class="text-[#F7C58A] text-6xl  pb-6">
             Full Stack <br /> Web Developer
           </div>
-          <div class="text-[#d2d8ff] text-l  font-light pb-8 w-[660px]">
-            I'm passionate about teaching, collaborations and creating exciting interactive web experiences. <br />
+          <div class="text-[#d2d8ff] text-l  font-light pb-8 w-[580px]">
+            Passionate about teaching, collaborations and creating exciting interactive web experiences.
             Want to work together or need an extra hand at a hackathon? Let's get in touch!
           </div>
-          <button class="text-sm font-light text-[#F7C58A] px-4 py-2 border border-[#F7C58A] hover:bg-[#F7C58A]/10 rounded">
+          <a href="mailto:adrian.hards@ahards.com" class="text-sm font-light text-[#F7C58A] px-4 py-3 border border-[#F7C58A] hover:bg-[#F7C58A]/10 rounded">
             Say hi
-          </button>
+          </a>
         </header>
       </motion.div>
     </div>
