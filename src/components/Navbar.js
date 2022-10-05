@@ -53,14 +53,14 @@ function Nav() {
 
               <motion.div variants={item}>
                 <div class="text-[#F7C58A] mr-9">
-                  <Link activeClass="active" smooth spy to="about" >
+                  <Link activeClass="active" smooth spy to="about">
                     <span class="text-[#d2d8ff] hover:text-[#F7C58A] link-underline hover:cursor-pointer">About</span>
                   </Link>
                 </div>
               </motion.div>
 
               <motion.div variants={item}>
-                <Link activeClass="active" smooth spy to="projects" >
+                <Link activeClass="active" smooth spy to="projects">
                   <a href="#responsive-header" class="text-[#F7C58A] mr-9">
                     <span class="text-[#d2d8ff] hover:text-[#F7C58A] link-underline hover:cursor-pointer">Projects</span>
                   </a>
@@ -68,9 +68,11 @@ function Nav() {
               </motion.div>
 
               <motion.div variants={item}>
-                <a href="#responsive-header" class="text-[#F7C58A] mr-9">
-                  <span class="text-[#d2d8ff] hover:text-[#F7C58A] link-underline hover:cursor-pointer">Contact</span>
-                </a>
+                <Link activeClass="active" smooth spy to="contact">
+                  <a href="#responsive-header" class="text-[#F7C58A] mr-9">
+                    <span class="text-[#d2d8ff] hover:text-[#F7C58A] link-underline hover:cursor-pointer">Contact</span>
+                  </a>
+                </Link>
               </motion.div>
 
               {/* <motion.div variants={item}>

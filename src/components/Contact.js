@@ -7,7 +7,7 @@ const fadeIn = {
   hidden: { opacity: 0, y: 50 }
 };
 
-function About() {
+function Contact() {
   const controls = useAnimation();
   const [ref, inView] = useInView();
 
@@ -25,9 +25,10 @@ function About() {
       animate={controls}
       initial="hidden"
     >
+
       <motion.div variants={fadeIn}>
         <div class="flex items-center justify-center h-screen">
-          About
+          Contact
         </div>
       </motion.div>
 
@@ -35,4 +36,4 @@ function About() {
   );
 }
 
-export default About;
+export default Contact;
