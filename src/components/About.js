@@ -39,7 +39,7 @@ function About() {
           </div>
 
           <div class="grid grid-cols-2">
-            <div class="text-4xl col-span-1 text-[#F7C58A] leading-normal font-light">
+            <div class="text-4xl col-span-1 text-[#F7C58A] leading-tight font-light">
               JavaScript (ES6+) <br />
               React <br />
               Node.js <br />
