@@ -24,7 +24,7 @@ function Header() {
           </div>
           <div class="text-[#d2d8ff] text-l  font-light pb-8 w-[580px]">
             Passionate about teaching, collaborations and creating exciting interactive web experiences.
-            Want to work together or need an extra hand at a hackathon? Let's get in touch!
+            Want to work together or need an extra hand at a hackathon? <br /> Let's get in touch!
           </div>
           <a href="mailto:adrian.hards@ahards.com" class="text-sm font-light text-[#F7C58A] px-4 py-3 border border-[#F7C58A] hover:bg-[#F7C58A]/10 rounded">
             Say hi

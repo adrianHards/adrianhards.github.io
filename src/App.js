@@ -2,6 +2,7 @@ import Nav from './components/Navbar';
 import Header from './components/Header';
 import About from './components/About';
 import Projects from './components/Projects';
+import Footer from './components/Footer';
 import { Element } from 'react-scroll'
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
       <Element name="projects">
         <Projects />
       </Element>
+      <Footer />
     </div>
   );
 }
