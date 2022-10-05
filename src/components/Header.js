@@ -22,7 +22,7 @@ function Header() {
           <div class="text-[#F7C58A] text-6xl  pb-6">
             Full Stack <br /> Web Developer
           </div>
-          <div class="text-[#d2d8ff] text-l  font-light pb-8 w-[580px]">
+          <div class="text-[#d2d8ff] text-l font-light pb-8 w-[580px]">
             Passionate about teaching, collaborations and creating exciting interactive web experiences.
             Want to work together or need an extra hand at a hackathon? <br /> Let's get in touch!
           </div>
