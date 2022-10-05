@@ -28,7 +28,7 @@ function Contact() {
 
       <motion.div variants={fadeIn}>
         <div class="flex items-center justify-center h-screen">
-          Contact
+        For any enquiries, or just to say hello, get in touch and contact us.
         </div>
       </motion.div>
 
