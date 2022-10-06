@@ -60,7 +60,6 @@ function About() {
               My focus is on building accessible, interactive digital experiences that improve the lives of others.
               My background is in Ruby on Rails and JavaScript, though my most recent projects were built with React and Node.
             </div>
-
           </div>
         </div>
 
