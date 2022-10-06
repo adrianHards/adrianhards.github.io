@@ -39,7 +39,7 @@ function About() {
           </div>
 
           <div class="grid grid-cols-2">
-            <div class="text-4xl col-span-1 text-[#F7C58A] leading-tight font-light">
+            <div class="text-4xl col-span-1 text-[#F7C58A] font-light">
               JavaScript (ES6+) <br />
               React <br />
               Node.js <br />
@@ -53,7 +53,7 @@ function About() {
               in programming; I'd look for any excuse to use R and create pretty, interactive graphs and maps
               in the name of data analysis.
               I also discovered a fondness for teaching which I am fortunate enough to have since combined with
-              coding. I currently instruct web development at both&nbsp;
+              coding. I currently instruct web development at two bootcamps, namely&nbsp;
               <span class="link-underline text-[#F7C58A]"><a href="https://www.lewagon.com/">Le Wagon</a></span>
               &nbsp;and <span class="link-underline text-[#F7C58A]"><a href="https://codeyourfuture.io/">CodeYourFuture</a></span>,
               the latter on a voluntary basis.
