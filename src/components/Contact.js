@@ -28,7 +28,7 @@ function Contact() {
 
       <motion.div variants={fadeIn}>
         <div class="h-screen text-[#d2d8ff] pt-64 pl-48 text-4xl w-[40%]">
-          For any enquiries, or just to say hello, please get in touch.
+          For all enquiries, or just to say hello, please get in touch.
             <div class="grid grid-cols-2 text-sm mt-8">
             <div class="text-[#d2d8ff]/75">
               Enquiries
@@ -48,9 +48,6 @@ function Contact() {
 
           </div>
         </div>
-
-
-
 
       </motion.div>
 

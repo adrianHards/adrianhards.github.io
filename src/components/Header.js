@@ -14,7 +14,7 @@ function Header() {
       >
         <header className="calibre mt-24 h-screen">
           <div class="text-[#d2d8ff] text-sm tracking-normal font-light pb-10">
-            Zdravo, I'm
+            Hello, I'm
           </div>
           <div class="text-white text-7xl font-semibold  pb-2">
             Adrian Hards.
