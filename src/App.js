@@ -1,7 +1,8 @@
 import Nav from './components/Navbar';
 import Header from './components/Header';
 import About from './components/About';
-import Projects from './components/Projects';
+import ProjectsFirst from './components/ProjectsFirst';
+import ProjectsSecond from './components/ProjectsSecond';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 import { Element } from 'react-scroll'
@@ -17,7 +18,8 @@ function App() {
       </Element>
 
       <Element name="projects">
-        <Projects />
+        <ProjectsFirst />
+        <ProjectsSecond />
       </Element>
 
       <Element name="contact">

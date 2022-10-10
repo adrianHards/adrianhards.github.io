@@ -26,7 +26,7 @@ function About() {
       initial="hidden"
     >
       <motion.div variants={fadeIn}>
-        <div class="h-screen w-[50%] text-[#d2d8ff] m-auto pt-48">
+        <div class="h-screen w-[47%] text-[#d2d8ff] m-auto pt-48">
           <div class="grid grid-cols-2">
 
             <div class="text-xs pb-6">
@@ -58,7 +58,7 @@ function About() {
               &nbsp;and <span class="link-underline text-[#F7C58A]"><a href="https://codeyourfuture.io/">CodeYourFuture</a></span>,
               the latter on a voluntary basis.
               My focus is on building accessible, interactive digital experiences that improve the lives of others.
-              My background is in Ruby on Rails and JavaScript, though my most recent projects were built with React and Node.
+              My background is in Ruby on Rails and JavaScript, though my most recent projects were built with React and Node.js.
             </div>
           </div>
         </div>
