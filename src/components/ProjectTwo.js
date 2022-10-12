@@ -30,9 +30,7 @@ function ProjectTwo() {
     >
       <div class="project-container">
         <div class="flow-root ml-48 mr-48 pt-[6%]">
-
           <div class="grid grid-cols-4">
-
               <div class="col-span-1 relative text-[#d2d8ff]">
                 <motion.div variants={fadeIn}>
                   <div class="float-right">
@@ -41,14 +39,14 @@ function ProjectTwo() {
                         <div class="text-[#F7C58A] text-sm">
                           Featured
                         </div>
-                          <div class="text-white text-2xl font-semibold pb-8">
-                            Cont[Text]
-                          </div>
-                          <div>
-                            Developed as part of the <span class="hover:text-[#F7C58A] link-underline"><a href="https://railshackathon.com/">Rails Hackathon 2022</a></span>, in which we came <span class="font-semibold">third</span>.
-                            Specifically, we used Turbo to negate the need for full-page reloads, for example when turning a page in a book or translating non-English sentences into English.
-                          </div>
+                        <div class="text-white text-2xl font-semibold pb-8">
+                          Cont[Text]
                         </div>
+                        <div>
+                          Developed as part of the <span class="hover:text-[#F7C58A] link-underline"><a href="https://railshackathon.com/">Rails Hackathon 2022</a></span>, in which we came <span class="font-semibold">third</span>.
+                          Specifically, we used Turbo to negate the need for full-page reloads, for example when turning a page in a book or translating non-English sentences into English.
+                        </div>
+                      </div>
 
                       <div class="pt-8 text-xs">
                         <div>

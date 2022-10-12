@@ -43,12 +43,18 @@ function ProjectOne() {
               <motion.div variants={fadeIn} class="col-span-1">
                 <div class="float-right">
                   <div class="text-left">
-                    <div class="header text-[#d2d8ff] font-light">
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                      Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                      Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-                      Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                    </div>
+                  <div class="header text-[#d2d8ff] font-light">
+                        <div class="text-[#F7C58A] text-sm">
+                          Featured
+                        </div>
+                        <div class="text-white text-2xl font-semibold pb-8">
+                          Trace
+                        </div>
+                        <div>
+                          Developed as part of the <span class="hover:text-[#F7C58A] link-underline"><a href="https://railshackathon.com/">Rails Hackathon 2022</a></span>, in which we came <span class="font-semibold">third</span>.
+                          Specifically, we used Turbo to negate the need for full-page reloads, for example when turning a page in a book or translating non-English sentences into English.
+                        </div>
+                      </div>
                   </div>
                 </div>
               </motion.div>
