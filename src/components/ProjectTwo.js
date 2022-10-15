@@ -34,7 +34,7 @@ function ProjectTwo() {
               <div class="col-span-1 relative text-[#d2d8ff]">
                 <motion.div variants={fadeIn}>
                   <div class="float-right">
-                    <div class="text-left">
+
                       <div class="header text-[#d2d8ff] font-light">
                         <div class="text-[#F7C58A] text-sm">
                           Featured
@@ -43,7 +43,7 @@ function ProjectTwo() {
                           Cont[Text]
                         </div>
                         <div>
-                          Developed as part of the <span class="hover:text-[#F7C58A] link-underline"><a href="https://railshackathon.com/">Rails Hackathon 2022</a></span>, in which we came <span class="font-semibold">third</span>.
+                          A web app developed as part of the <span class="hover:text-[#F7C58A] link-underline"><a href="https://railshackathon.com/">Rails Hackathon 2022</a></span>, in which we came <span class="font-semibold">third</span>.
                           Specifically, we used Turbo to negate the need for full-page reloads, for example when turning a page in a book or translating non-English sentences into English.
                         </div>
                       </div>
@@ -71,7 +71,6 @@ function ProjectTwo() {
 
                       </div>
 
-                    </div>
                   </div>
                 </motion.div>
               </div>
