@@ -5,7 +5,7 @@ If you'd like to learn how to do something similar, visit the [Create React App 
 
 Drop me a ⭐️ if you found this helpful. And if you use any of this code, please make sure to link to this repo and give credit. Thank you!
 
-## Running Locally
+## To Run Locally
 
 From the project directory, run the following in your terminal:
 
