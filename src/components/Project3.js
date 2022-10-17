@@ -12,7 +12,7 @@ const fadeIn = {
   hidden: { opacity: 0, y: 50 }
 };
 
-function ProjectOne() {
+function Project3() {
   const controls = useAnimation();
   const [ref, inView] = useInView();
 
@@ -69,6 +69,6 @@ function ProjectOne() {
   );
 }
 
-export default ProjectOne;
+export default Project3;
 
 // https://egghead.io/blog/how-to-animate-elements-when-in-view-on-scroll-with-framer-motion
