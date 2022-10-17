@@ -52,7 +52,7 @@ function Project1() {
                     <div>
                       A web app for creating and completing digital scavenger hunts. Create challenges in
                       areas of your choosing for a chosen date and time. Share your scavenger hunt via a QR code with friends.
-                      Have them compete against each other before the timer ends!
+                      Have them compete against each other before the timer runs out!
                     </div>
                   </div>
 

@@ -43,7 +43,7 @@ function Project2() {
                           Cont[Text]
                         </div>
                         <div>
-                          A web app developed as part of the <span class="hover:text-[#F7C58A] link-underline"><a href="https://railshackathon.com/">Rails Hackathon 2022</a></span>, in which we came <span class="font-semibold">third</span>.
+                          A web app developed as part of the <span class="hover:text-[#F7C58A] link-underline"><a href="https://railshackathon.com/">Rails Hackathon 2022</a></span>, in which we came <span class="font-semibold text-[#F7C58A]">third</span>.
                           Specifically, we used Turbo to negate the need for full-page reloads, for example when turning a page in a book or translating non-English sentences into English.
                         </div>
                       </div>
@@ -78,7 +78,6 @@ function Project2() {
                             </a>
                           </div>
                         </div>
-
                       </div>
 
                   </div>
