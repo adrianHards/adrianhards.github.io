@@ -8,9 +8,8 @@ If you'd like to learn how to do something similar, visit the [Create React App 
 From the project directory, run the following in your terminal:
 
 `npm install`\
-`npm start`
+`npm start` 
 
-This will runs the app in the development mode.\
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
