@@ -1,6 +1,7 @@
 import React, { useEffect } from "react";
 import { useAnimation, motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
+// import trace from '../assets/trace.gif'
 
 const fromLeft = {
   visible: { opacity: 1, x: 0, transition: { duration: 1 } },
@@ -34,7 +35,9 @@ function Project1() {
             <div class="col-span-3">
               <motion.div variants={fromLeft}>
                 <div class="float-left">
-                  <div class="project-card h-[500px] w-[750px] bg-white"></div>
+                  <div class="project-card h-[500px] w-[750px] bg-white">
+                    {/* <img src={ trace } alt="" /> */}
+                  </div>
                 </div>
               </motion.div>
             </div>

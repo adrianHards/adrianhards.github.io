@@ -1,6 +1,7 @@
 import React, { useEffect } from "react";
 import { useAnimation, motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
+import context from '../assets/context.gif';
 
 const fromRight = {
   visible: { opacity: 1, x: 0, transition: { duration: 1 } },
@@ -87,7 +88,9 @@ function Project2() {
               <div class="col-span-3">
                 <motion.div variants={fromRight}>
                   <div class="float-right">
-                    <div class="project-card h-[500px] w-[750px] bg-white"></div>
+                    <div class="project-card h-[500px] w-[750px]">
+                      <img src={ context } alt="" />
+                    </div>
                   </div>
                 </motion.div>
               </div>
