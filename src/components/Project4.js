@@ -84,7 +84,7 @@ function Project4() {
               <div class="col-span-3">
                 <motion.div variants={fromRight}>
                   <div class="float-right">
-                    <div class="project-card h-[500px] w-[750px] bg-white"></div>
+                    <div class="project-card h-[400px] w-[750px] rounded-md bg-context-still bg-cover hover:bg-context-gif"></div>
                   </div>
                 </motion.div>
               </div>
