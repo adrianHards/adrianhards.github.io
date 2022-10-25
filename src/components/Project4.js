@@ -37,7 +37,7 @@ function Project4() {
 
                       <div class="header text-[#d2d8ff] font-light">
                         <div class="text-[#F7C58A] text-sm">
-                          Featured
+                          Desktop + Mobile Sites
                         </div>
                         <div class="text-white text-2xl font-semibold pb-8">
                           Clean Runnings
@@ -84,7 +84,7 @@ function Project4() {
               <div class="col-span-3">
                 <motion.div variants={fromRight}>
                   <div class="float-right">
-                    <div class="project-card h-[400px] w-[750px] rounded-md blur-[2px] hover:blur-0 bg-context-still bg-cover hover:bg-context-gif"></div>
+                    <div class="project-card h-[400px] w-[750px] rounded-md bg-context-still bg-cover hover:bg-context-gif"></div>
                   </div>
                 </motion.div>
               </div>

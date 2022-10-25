@@ -1,7 +1,6 @@
 import React, { useEffect } from "react";
 import { useAnimation, motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
-// import reminder from '../assets/reminder.gif';
 
 const fromLeft = {
   visible: { opacity: 1, x: 0, transition: { duration: 1 } },
@@ -35,7 +34,7 @@ function Project3() {
             <div class="col-span-3">
               <motion.div variants={fromLeft}>
                 <div class="float-left">
-                  <div class="project-card h-[400px] w-[750px] rounded-md bg-reminder-still bg-cover hover:bg-reminder-gif transition-all"></div>
+                  <div class="project-card h-[400px] w-[750px] rounded-md bg-reminder-still bg-cover hover:bg-reminder-gif"></div>
                 </div>
               </motion.div>
             </div>
@@ -45,7 +44,7 @@ function Project3() {
                 <div class="float-right">
                   <div class="header text-[#d2d8ff] font-light">
                     <div class="text-[#F7C58A] text-sm">
-                      Featured
+                      Desktop Site
                     </div>
                     <div class="text-white text-2xl font-semibold pb-8">
                       Reminders

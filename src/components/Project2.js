@@ -1,7 +1,6 @@
 import React, { useEffect } from "react";
 import { useAnimation, motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
-// import context from '../assets/context.gif';
 
 const fromRight = {
   visible: { opacity: 1, x: 0, transition: { duration: 1 } },
@@ -38,13 +37,13 @@ function Project2() {
 
                       <div class="header text-[#d2d8ff] font-light">
                         <div class="text-[#F7C58A] text-sm">
-                          Featured
+                          Desktop Site
                         </div>
                         <div class="text-white text-2xl font-semibold pb-8">
                           Cont[Text]
                         </div>
                         <div>
-                          A web app developed as part of the <span class="hover:text-[#F7C58A] link-underline"><a href="https://railshackathon.com/">Rails Hackathon 2022</a></span>, in which we came <span class="font-semibold text-[#F7C58A]">third</span>.
+                          A web app developed as part of the <span class="hover:text-[#F7C58A] text-[#F7C58A] font-semibold link-underline"><a href="https://railshackathon.com/">Rails Hackathon 2022</a></span>, in which we came <span class="font-semibold text-[#F7C58A]">third</span>.
                           Specifically, we used Turbo to negate the need for full-page reloads, for example when turning a page in a book or translating non-English sentences into English.
                         </div>
                       </div>
@@ -88,7 +87,7 @@ function Project2() {
               <div class="col-span-3">
                 <motion.div variants={fromRight}>
                   <div class="float-right">
-                    <div class="project-card h-[400px] w-[750px] rounded-md bg-context-still grayscale bg-cover hover:bg-context-gif hover:grayscale-0 transition-all"></div>
+                    <div class="project-card h-[400px] w-[750px] rounded-md bg-context-still bg-cover hover:bg-context-gif"></div>
                   </div>
                 </motion.div>
               </div>
