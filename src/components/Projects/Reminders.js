@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import FromLeft from '../Animation/FromLeft'
 import FadeIn from '../Animation/FadeIn'
+import Content from './Content'
 
 function Reminders() {
   return (
@@ -19,14 +20,13 @@ function Reminders() {
             <div class="float-right">
               <div class="header text-[#d2d8ff] font-light">
                 <div class="text-[#F7C58A] text-sm">
-                  Desktop Site
+                  {Content.Reminders.Site}
                 </div>
                 <div class="text-white text-2xl font-semibold pb-8">
-                  Reminders
+                  {Content.Reminders.Title}
                 </div>
                 <div>
-                  Recreating a simplistic version of Apple's reminders app as a single page application using Hotwire Turbo.
-                  Add, edit, complete, undo, search for and delete a task.
+                  {Content.Reminders.Body}
                 </div>
               </div>
 

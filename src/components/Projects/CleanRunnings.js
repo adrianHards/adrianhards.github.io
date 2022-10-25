@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import FromRight from '../Animation/FromRight'
 import FadeIn from '../Animation/FadeIn'
+import Content from './Content'
 
 function CleanRunnings() {
   return (
@@ -13,10 +14,10 @@ function CleanRunnings() {
 
                 <div class="header text-[#d2d8ff] font-light">
                   <div class="text-[#F7C58A] text-sm">
-                    Desktop + Mobile Sites
+                    {Content.CleanRunnings.Site}
                   </div>
                   <div class="text-white text-2xl font-semibold pb-8">
-                    Clean Runnings
+                    {Content.CleanRunnings.Title}
                   </div>
                   <div>
                     A React-based web app developed for the <span class="hover:text-[#F7C58A] link-underline"><a href="https://www.planes.studio/blog/hack-to-the-future-july-2022">Planes Hack To The Future 2022</a></span> event, in which we won <span class="font-semibold text-[#F7C58A]">best presentation</span> and <span class="font-semibold text-[#F7C58A]">most innovative product</span>.

@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import FromLeft from '../Animation/FromLeft'
 import FromRight from '../Animation/FromRight'
+import Content from './Content'
 
 function Find() {
   return (
@@ -13,15 +14,13 @@ function Find() {
 
               <div class="header text-[#d2d8ff] font-light">
                 <div class="text-[#F7C58A] text-sm">
-                  Mobile Site
+                  {Content.Find.Site}
                 </div>
                 <div class="text-white text-2xl font-semibold pb-8">
-                  Find
+                  {Content.Find.Title}
                 </div>
                 <div>
-                  A web app for creating and completing digital scavenger hunts. Create challenges in
-                  areas of your choosing for a chosen date and time. Share your scavenger hunt via a QR code with friends.
-                  Have them compete against each other before the timer runs out!
+                  {Content.Find.Body}
                 </div>
               </div>
 

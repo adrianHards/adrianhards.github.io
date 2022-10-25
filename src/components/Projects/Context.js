@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import FadeIn from '../Animation/FadeIn'
 import FromRight from '../Animation/FromRight'
+import Content from './Content'
 
 function Context() {
   return (
@@ -12,10 +13,10 @@ function Context() {
               <div class="float-right">
                   <div class="header text-[#d2d8ff] font-light">
                     <div class="text-[#F7C58A] text-sm">
-                      Desktop Site
+                      {Content.Context.Site}
                     </div>
                     <div class="text-white text-2xl font-semibold pb-8">
-                      Cont[Text]
+                      {Content.Context.Title}
                     </div>
                     <div>
                       A web app developed as part of the <span class="hover:text-[#F7C58A] text-[#F7C58A] font-semibold link-underline"><a href="https://railshackathon.com/">Rails Hackathon 2022</a></span>, in which we came <span class="font-semibold text-[#F7C58A]">third</span>.
