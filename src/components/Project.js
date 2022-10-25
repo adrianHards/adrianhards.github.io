@@ -1,17 +1,32 @@
+import FadeInFunc from './Animation/FadeInFunc'
 import Trace from './Projects/Trace';
 import Find from './Projects/Find';
-import FadeIn from './Animation/FadeIn'
+import Context from './Projects/Context';
+import Reminders from './Projects/Reminders';
+import CleanRunnings from './Projects/CleanRunnings';
 
 function Project() {
   return (
     <div class="projects">
-      <FadeIn>
+      <FadeInFunc>
         <Trace />
-      </FadeIn>
+      </FadeInFunc>
 
-      <FadeIn>
+      <FadeInFunc>
         <Find />
-      </FadeIn>
+      </FadeInFunc>
+
+      <FadeInFunc>
+        <Context />
+      </FadeInFunc>
+
+      <FadeInFunc>
+        <Reminders />
+      </FadeInFunc>
+
+      <FadeInFunc>
+        <CleanRunnings />
+      </FadeInFunc>
     </div>
 
   );

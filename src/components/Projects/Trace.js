@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
-import fromLeft from '../Animation/fromLeft'
-import fromRight from '../Animation/fromRight'
+import FromLeft from '../Animation/FromLeft'
+import FromRight from '../Animation/FromRight'
 
 function Trace() {
   return (
@@ -8,7 +8,7 @@ function Trace() {
       <div class="grid grid-cols-6">
         <div class="col-span-1"></div>
         <div class="col-span-2">
-          <motion.div variants={fromLeft}>
+          <motion.div variants={FromLeft}>
             <div class="float-left pr-16">
 
               <div class="header text-[#d2d8ff] font-light">
@@ -62,7 +62,7 @@ function Trace() {
         </div>
 
         <div class="col-span-2">
-          <motion.div variants={fromRight}>
+          <motion.div variants={FromRight}>
             <div class="h-[600px] w-[300px] bg-white"></div>
           </motion.div>
         </div>

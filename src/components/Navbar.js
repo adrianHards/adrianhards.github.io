@@ -75,11 +75,6 @@ function Nav() {
                 </Link>
               </motion.div>
 
-              {/* <motion.div variants={item}>
-                <a href="#responsive-header" class="font-light px-4 py-2 -mt-2 border rounded text-[#F7C58A] border-[#F7C58A] hover:bg-[#F7C58A]/10">
-                  Résumé
-                </a>
-              </motion.div> */}
             </div>
           </div>
         </motion.div>
