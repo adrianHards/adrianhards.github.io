@@ -25,6 +25,12 @@ function App() {
       </Element>
 
       <Footer />
+
+      <div id="preload-gifs">
+        <div class="bg-context-gif h-screen"></div>
+        <div class="bg-reminder-gif"></div>
+      </div>
+
     </div>
   );
 }
