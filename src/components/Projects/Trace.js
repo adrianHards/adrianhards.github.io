@@ -6,8 +6,10 @@ import Content from './Content'
 function Trace() {
   return (
     <div class="flow-root ml-48 mr-48 pt-[6%]">
-      <div class="grid grid-cols-6">
-        <div class="col-span-1"></div>
+      <div class="grid grid-cols-5">
+
+      <div class="col-span-1"></div>
+
         <div class="col-span-2">
           <motion.div variants={FromLeft}>
             <div class="float-left pr-16">
@@ -60,7 +62,7 @@ function Trace() {
           </motion.div>
         </div>
 
-        <div class="col-span-2">
+        <div class="col-span-1">
           <motion.div variants={FromRight}>
             <div class="h-[600px] w-[300px] bg-white"></div>
           </motion.div>
