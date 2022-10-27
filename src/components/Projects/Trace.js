@@ -2,6 +2,8 @@ import { motion } from "framer-motion";
 import FromLeft from '../Animation/FromLeft'
 import FromRight from '../Animation/FromRight'
 import Content from './Content'
+import still from '../../assets/context.png'
+import gif from '../../assets/context.gif'
 
 function Trace() {
   return (
@@ -64,11 +66,15 @@ function Trace() {
 
         <div class="col-span-1">
           <motion.div variants={FromRight}>
-            <div class="h-[600px] w-[300px] bg-white"></div>
+            <div class="figure">
+              <img class="image-main h-[600px] w-[300px] image-main" src={still} alt=""></img>
+              <img class="image-hover h-[600px] w-[300px] image-main" src={gif} alt=""></img>
+            </div>
           </motion.div>
         </div>
       </div>
     </div>
+
   );
 }
 

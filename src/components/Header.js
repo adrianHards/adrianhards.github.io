@@ -30,6 +30,7 @@ function Header() {
             Say hi
           </a>
         </header>
+
       </motion.div>
     </div>
   );

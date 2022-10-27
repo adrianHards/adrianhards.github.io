@@ -26,6 +26,7 @@ function About() {
       initial="hidden"
     >
       <motion.div variants={fadeIn}>
+
         <div class="h-screen w-[47%] text-[#d2d8ff] m-auto pt-48">
           <div class="grid grid-cols-2">
 
