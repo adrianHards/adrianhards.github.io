@@ -2,6 +2,8 @@ import { motion } from "framer-motion";
 import FadeIn from '../Animation/FadeIn'
 import FromRight from '../Animation/FromRight'
 import Content from './Content'
+import still from '../../assets/context.png'
+import gif from '../../assets/context.gif'
 
 function Context() {
   return (
@@ -62,8 +64,9 @@ function Context() {
 
           <div class="col-span-3">
             <motion.div variants={FromRight}>
-              <div class="float-right">
-                <div class="project-card h-[400px] w-[750px] rounded-md bg-context-still bg-cover hover:bg-context-gif"></div>
+              <div class="float-right figure h-[400px] w-[750px] rounded-md object-cover">
+                <img class="image-main object-cover image-main" src={still} alt=""></img>
+                <img class="image-hover object-cover image-main" src={gif} alt=""></img>
               </div>
             </motion.div>
           </div>

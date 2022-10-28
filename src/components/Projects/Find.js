@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import FromLeft from '../Animation/FromLeft'
-import FromRight from '../Animation/FromRight'
 import Content from './Content'
+import FadeIn from '../Animation/FadeIn'
 
 function Find() {
   return (
@@ -10,7 +10,7 @@ function Find() {
         <div class="col-span-1"></div>
 
         <div class="col-span-1">
-          <motion.div variants={FromRight}>
+          <motion.div variants={FromLeft}>
             <div class="h-[600px] w-[300px] bg-white"></div>
           </motion.div>
         </div>
@@ -18,7 +18,7 @@ function Find() {
         <div class="col-span-1"></div>
 
         <div class="col-span-2">
-          <motion.div variants={FromLeft}>
+          <motion.div variants={FadeIn}>
             <div class="float-left pr-16">
 
               <div class="header text-[#d2d8ff] font-light">

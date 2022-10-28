@@ -28,7 +28,6 @@ function Project() {
         <CleanRunnings />
       </FadeInFunc>
     </div>
-
   );
 }
 

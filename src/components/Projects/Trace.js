@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import FromLeft from '../Animation/FromLeft'
+import FadeIn from '../Animation/FadeIn'
 import FromRight from '../Animation/FromRight'
 import Content from './Content'
 import still from '../../assets/context.png'
@@ -13,7 +13,7 @@ function Trace() {
       <div class="col-span-1"></div>
 
         <div class="col-span-2">
-          <motion.div variants={FromLeft}>
+          <motion.div variants={FadeIn}>
             <div class="float-left pr-16">
 
               <div class="header text-[#d2d8ff] font-light">
@@ -66,9 +66,9 @@ function Trace() {
 
         <div class="col-span-1">
           <motion.div variants={FromRight}>
-            <div class="figure">
-              <img class="image-main h-[600px] w-[300px] image-main" src={still} alt=""></img>
-              <img class="image-hover h-[600px] w-[300px] image-main" src={gif} alt=""></img>
+            <div class="figure h-[600px] w-[300px] bg-white">
+              <img class="image-main object-none image-main" src={still} alt=""></img>
+              <img class="image-hover object-none image-main" src={gif} alt=""></img>
             </div>
           </motion.div>
         </div>

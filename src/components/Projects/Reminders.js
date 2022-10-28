@@ -2,6 +2,8 @@ import { motion } from "framer-motion";
 import FromLeft from '../Animation/FromLeft'
 import FadeIn from '../Animation/FadeIn'
 import Content from './Content'
+import still from '../../assets/reminder.png'
+import gif from '../../assets/reminder.gif'
 
 function Reminders() {
   return (
@@ -9,8 +11,9 @@ function Reminders() {
       <div class="grid grid-cols-4">
         <div class="col-span-3">
           <motion.div variants={FromLeft}>
-            <div class="float-left">
-              <div class="project-card h-[400px] w-[750px] rounded-md bg-reminder-still bg-cover hover:bg-reminder-gif"></div>
+            <div class="float-left figure h-[400px] w-[750px] rounded-md object-cover">
+              <img class="image-main object-cover image-main" src={still} alt=""></img>
+              <img class="image-hover object-cover image-main" src={gif} alt=""></img>
             </div>
           </motion.div>
         </div>
