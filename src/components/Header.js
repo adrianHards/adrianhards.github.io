@@ -12,19 +12,20 @@ function Header() {
         delay: 0.95,
       }}
       >
-        <header className="calibre mt-24 h-screen">
-          <div class="text-[#d2d8ff] text-md tracking-normal font-light pb-10">
+        <header className="calibre mt-[25%] lg:mt-[10%] h-screen">
+          <div class="text-[#d2d8ff] text-sm lg:text-base tracking-normal font-light pb-[2%]">
             Hello, I'm
           </div>
-          <div class="text-white text-7xl font-semibold  pb-2">
+          <div class="text-white text-5xl lg:text-6xl font-semibold  pb-[3%] lg:pb-[1%]">
             Adrian Hards.
           </div>
-          <div class="text-[#F7C58A] text-6xl  pb-6">
+          <div class="text-[#F7C58A] text-4xl lg:text-5xl  pb-[3%]">
             Full Stack <br /> Web Developer
           </div>
-          <div class="text-[#d2d8ff] text-md font-light pb-8 w-[580px]">
+          <div class="text-[#d2d8ff] text-sm lg:text-base font-light pb-[10%] lg:pb-[3%] w-[350px] md:w-[500px] lg:w-[550px]">
             Passionate about teaching and creating exciting interactive web experiences.
-            Want to work together or need an extra hand at a hackathon? <br /> Let's get in touch!
+            Want to work together or need an extra hand at a hackathon? <br />
+            Let's get in touch!
           </div>
           <a href="https://www.linkedin.com/in/adrianhards/" class="text-sm font-light text-[#F7C58A] px-4 py-3 border border-[#F7C58A] hover:bg-[#F7C58A]/10 rounded">
             Say hi

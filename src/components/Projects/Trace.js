@@ -7,8 +7,8 @@ import gif from '../../assets/trace.gif'
 
 function Trace() {
   return (
-    <div class="flow-root pt-[10%] h-screen">
-      <div class="grid grid-cols-2 mr-[15%] ml-[15%]">
+    <div class="flow-root pt-[10%]">
+      <div class="grid grid-cols-1 lg:grid-cols-2 mr-[15%] ml-[15%]">
 
         <div class="col-span-1 pr-[10%]">
           <motion.div variants={FadeIn}>
@@ -61,7 +61,6 @@ function Trace() {
             </div>
           </motion.div>
         </div>
-
 
         <div class="col-span-1">
           <motion.div variants={FromRight}>

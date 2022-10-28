@@ -7,7 +7,7 @@ import gif from '../../assets/clean.gif'
 
 function CleanRunnings() {
   return (
-    <div class="flow-root pt-[10%] h-screen">
+    <div class="flow-root pt-[10%]">
       <div class="grid grid-cols-4">
 
         <div class="col-span-1 relative text-[#d2d8ff]">

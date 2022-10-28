@@ -13,12 +13,12 @@
 }
 
 .figure img.image-hover {
+  transition-delay:0.2s;
   position: absolute;
   top: 0;
   right: 0;
   left: 0;
   bottom: 0;
-  /* object-fit: contain; */
   opacity: 0;
 }
 .figure:hover img.image-hover {

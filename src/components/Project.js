@@ -7,7 +7,7 @@ import CleanRunnings from './Projects/CleanRunnings';
 
 function Project() {
   return (
-    <div class="projects">
+  <div class="projects">
       <FadeInFunc>
         <Trace />
       </FadeInFunc>

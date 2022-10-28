@@ -27,7 +27,7 @@ function Nav() {
   };
   const item = {
     hidden: { opacity: 0, y: -50 },
-    show: { opacity: 1, y: 0 }
+    show: { opacity: 1, y: 0, transition: {duration: 0.5} }
   }
 
   return (
@@ -37,12 +37,12 @@ function Nav() {
         initial="hidden"
         animate="show"
         >
-          <div class="text-sm mt-8">
-            <div class="flex justify-end">
+          <div class="text-xs lg:text-sm mt-8">
+            <div class="flex justify-center md:justify-end">
 
-              <div class="absolute left-[0%] -mt-2 cursor-default">
+              <div class="absolute center-[0%] lg:left-[0%] -mt-6 lg:-mt-2 cursor-default">
                 <div class={faded ? "transition-opacity duration-300 ease-in opacity-100 hover:cursor-pointer" : "transition-opacity duration-300 ease-out opacity-0"}>
-                    <span class="text-white text-lg font-bold"
+                    <span class="text-white text-xs lg:text-lg font-bold"
                       onClick={() => {
                           window.scrollTo({top: 0, left: 0, behavior: 'smooth'});
                         }
@@ -61,7 +61,7 @@ function Nav() {
 
               <motion.div variants={item}>
                 <Link activeClass="active" smooth spy to="projects">
-                  <a href="#responsive-header" class="text-[#F7C58A] mr-9">
+                  <a href="scroll-on-click" class="text-[#F7C58A] mr-9">
                     <span class="text-[#d2d8ff] hover:text-[#F7C58A] link-underline hover:cursor-pointer">Projects</span>
                   </a>
                 </Link>
@@ -69,7 +69,7 @@ function Nav() {
 
               <motion.div variants={item}>
                 <Link activeClass="active" smooth spy to="contact">
-                  <a href="#responsive-header" class="text-[#F7C58A]">
+                  <a href="scroll-on-click" class="text-[#F7C58A]">
                     <span class="text-[#d2d8ff] hover:text-[#F7C58A] link-underline hover:cursor-pointer">Contact</span>
                   </a>
                 </Link>

@@ -7,7 +7,7 @@ import gif from '../../assets/find.gif'
 
 function Find() {
   return (
-    <div class="flow-root pt-[10%] h-screen">
+    <div class="flow-root pt-[10%]">
       <div class="grid grid-cols-2 mr-[15%] ml-[15%]">
 
         <div class="col-span-1">
