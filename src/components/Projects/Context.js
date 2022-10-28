@@ -64,9 +64,9 @@ function Context() {
 
           <div class="col-span-3">
             <motion.div variants={FromRight}>
-              <div class="float-right figure h-[400px] w-[750px] rounded-md object-cover">
-                <img class="image-main object-cover image-main" src={still} alt=""></img>
-                <img class="image-hover object-cover image-main" src={gif} alt=""></img>
+              <div class="figure h-[350px] w-[750px]">
+                <img class="image-main object-contain image-main rounded-md" src={still} alt=""></img>
+                <img class="image-hover object-contain image-main rounded-md" src={gif} alt=""></img>
               </div>
             </motion.div>
           </div>

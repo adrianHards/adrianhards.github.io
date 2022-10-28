@@ -2,6 +2,8 @@ import { motion } from "framer-motion";
 import FromLeft from '../Animation/FromLeft'
 import Content from './Content'
 import FadeIn from '../Animation/FadeIn'
+import still from '../../assets/find.png'
+import gif from '../../assets/find.gif'
 
 function Find() {
   return (
@@ -11,7 +13,10 @@ function Find() {
 
         <div class="col-span-1">
           <motion.div variants={FromLeft}>
-            <div class="h-[600px] w-[300px] bg-white"></div>
+            <div class="figure h-[600px] w-[300px]">
+              <img class="image-main object-contain image-main rounded-md" src={still} alt=""></img>
+              <img class="image-hover object-contain image-main rounded-md" src={gif} alt=""></img>
+            </div>
           </motion.div>
         </div>
 
@@ -19,7 +24,7 @@ function Find() {
 
         <div class="col-span-2">
           <motion.div variants={FadeIn}>
-            <div class="float-left pr-16">
+            <div class="float-left">
 
               <div class="header text-[#d2d8ff] font-light">
                 <div class="text-[#F7C58A] text-sm">

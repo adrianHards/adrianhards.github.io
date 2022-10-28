@@ -2,6 +2,8 @@ import { motion } from "framer-motion";
 import FromRight from '../Animation/FromRight'
 import FadeIn from '../Animation/FadeIn'
 import Content from './Content'
+import still from '../../assets/clean.png'
+import gif from '../../assets/clean.gif'
 
 function CleanRunnings() {
   return (
@@ -60,8 +62,9 @@ function CleanRunnings() {
 
         <div class="col-span-3">
           <motion.div variants={FromRight}>
-            <div class="float-right">
-              <div class="project-card h-[400px] w-[750px] rounded-md bg-context-still bg-cover hover:bg-context-gif"></div>
+            <div class="figure h-[350px] w-[750px]">
+              <img class="image-main object-contain image-main rounded-md" src={still} alt=""></img>
+              <img class="image-hover object-contain image-main rounded-md" src={gif} alt=""></img>
             </div>
           </motion.div>
         </div>

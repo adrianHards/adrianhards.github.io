@@ -39,10 +39,5 @@ function Header() {
 export default Header;
 
 
-// Changed careers to pursue passions in coding and teaching make the world a better place through technology and education
-
-
-
-
 
 

@@ -2,19 +2,17 @@ import { motion } from "framer-motion";
 import FadeIn from '../Animation/FadeIn'
 import FromRight from '../Animation/FromRight'
 import Content from './Content'
-import still from '../../assets/context.png'
-import gif from '../../assets/context.gif'
+import still from '../../assets/trace.png'
+import gif from '../../assets/trace.gif'
 
 function Trace() {
   return (
     <div class="flow-root ml-48 mr-48 pt-[6%]">
-      <div class="grid grid-cols-5">
+      <div class="grid grid-cols-3">
 
-      <div class="col-span-1"></div>
-
-        <div class="col-span-2">
+        <div class="col-span-1">
           <motion.div variants={FadeIn}>
-            <div class="float-left pr-16">
+            <div class="float-left">
 
               <div class="header text-[#d2d8ff] font-light">
                 <div class="text-[#F7C58A] text-sm">
@@ -66,12 +64,13 @@ function Trace() {
 
         <div class="col-span-1">
           <motion.div variants={FromRight}>
-            <div class="figure h-[600px] w-[300px] bg-white">
-              <img class="image-main object-none image-main" src={still} alt=""></img>
-              <img class="image-hover object-none image-main" src={gif} alt=""></img>
+            <div class="figure h-[600px] w-[300px]">
+              <img class="image-main object-contain image-main rounded-md" src={still} alt=""></img>
+              <img class="image-hover object-contain image-main rounded-md" src={gif} alt=""></img>
             </div>
           </motion.div>
         </div>
+
       </div>
     </div>
 
