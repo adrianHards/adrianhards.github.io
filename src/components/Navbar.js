@@ -37,10 +37,10 @@ function Nav() {
         initial="hidden"
         animate="show"
         >
-          <div class="text-sm mt-8 mr-8">
+          <div class="text-sm mt-8">
             <div class="flex justify-end">
 
-              <div class="absolute left-48 -mt-2 cursor-default">
+              <div class="absolute left-[0%] -mt-2 cursor-default">
                 <div class={faded ? "transition-opacity duration-300 ease-in opacity-100 hover:cursor-pointer" : "transition-opacity duration-300 ease-out opacity-0"}>
                     <span class="text-white text-lg font-bold"
                       onClick={() => {
@@ -69,7 +69,7 @@ function Nav() {
 
               <motion.div variants={item}>
                 <Link activeClass="active" smooth spy to="contact">
-                  <a href="#responsive-header" class="text-[#F7C58A] mr-9">
+                  <a href="#responsive-header" class="text-[#F7C58A]">
                     <span class="text-[#d2d8ff] hover:text-[#F7C58A] link-underline hover:cursor-pointer">Contact</span>
                   </a>
                 </Link>

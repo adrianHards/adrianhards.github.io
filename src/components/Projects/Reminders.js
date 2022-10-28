@@ -7,11 +7,11 @@ import gif from '../../assets/reminder.gif'
 
 function Reminders() {
   return (
-    <div class="flow-root ml-48 mr-48 pt-[6%]">
+    <div class="flow-root pt-[10%] h-screen">
       <div class="grid grid-cols-4">
         <div class="col-span-3">
           <motion.div variants={FromLeft}>
-            <div class="figure h-[350px] w-[750px]">
+            <div class="figure mr-[5%]">
               <img class="image-main object-contain image-main rounded-md" src={still} alt=""></img>
               <img class="image-hover object-contain image-main rounded-md" src={gif} alt=""></img>
             </div>

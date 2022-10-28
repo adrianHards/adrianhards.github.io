@@ -7,7 +7,7 @@ import gif from '../../assets/clean.gif'
 
 function CleanRunnings() {
   return (
-    <div class="flow-root ml-48 mr-48 pt-[6%]">
+    <div class="flow-root pt-[10%] h-screen">
       <div class="grid grid-cols-4">
 
         <div class="col-span-1 relative text-[#d2d8ff]">
@@ -21,7 +21,7 @@ function CleanRunnings() {
                   <div class="text-white text-2xl font-semibold pb-8">
                     {Content.CleanRunnings.Title}
                   </div>
-                  <div>
+                  <div class="">
                     A React-based web app developed for the <span class="hover:text-[#F7C58A] link-underline"><a href="https://www.planes.studio/blog/hack-to-the-future-july-2022">Planes Hack To The Future 2022</a></span> event, in which we won <span class="font-semibold text-[#F7C58A]">best presentation</span> and <span class="font-semibold text-[#F7C58A]">most innovative product</span>.
                     Specifically, we used the Google Maps API alongside an air quality API to show air quality along user-made running routes.
                   </div>
@@ -62,7 +62,7 @@ function CleanRunnings() {
 
         <div class="col-span-3">
           <motion.div variants={FromRight}>
-            <div class="figure h-[350px] w-[750px]">
+            <div class="figure ml-[5%]">
               <img class="image-main object-contain image-main rounded-md" src={still} alt=""></img>
               <img class="image-hover object-contain image-main rounded-md" src={gif} alt=""></img>
             </div>
