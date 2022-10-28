@@ -28,19 +28,19 @@ function About() {
       <motion.div variants={fadeIn}>
 
         <div class="h-screen lg:w-[65%] md:w-[80%] text-[#d2d8ff] m-auto pt-[35%] lg:pt-[15%]">
-          <div class="grid grid-cols-2">
+          <div class="grid lg:grid-cols-2 grid-cols-3">
 
-            <div class="text-xs pb-6">
+            <div class="text-xs pb-6 col-span-1">
               Skills
             </div>
 
-            <div class="text-xs pb-6">
+            <div class="text-xs pb-6 col-span-1">
               About Me
             </div>
           </div>
 
-          <div class="grid grid-cols-2">
-            <div class="text-sm lg:text-4xl col-span-1 text-[#F7C58A] font-light">
+          <div class="grid grid-cols-3 lg:grid-cols-2">
+            <div class="text-sm md:text-lg lg:text-4xl col-span-1 lg:col-span-1 text-[#F7C58A] font-light">
               JavaScript (ES6+) <br />
               React <br />
               Node.js <br />
@@ -49,7 +49,7 @@ function About() {
               RSpec <br />
             </div>
 
-            <div class="text-xs lg:text-lg font-light col-span-1 leading-normal">
+            <div class="text-xs md:text-base lg:text-lg font-light col-span-2 lg:col-span-1 leading-normal">
               Formerly I worked in Canada as a research biologist. It was here that I first developed an interest
               in programming; I'd look for any excuse to use R and create pretty, interactive graphs and maps
               in the name of data analysis.

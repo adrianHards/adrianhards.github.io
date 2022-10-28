@@ -8,25 +8,25 @@ import gif from '../../assets/trace.gif'
 function Trace() {
   return (
     <div class="flow-root pt-[10%]">
-      <div class="grid grid-cols-1 lg:grid-cols-2 mr-[15%] ml-[15%]">
+      <div class="grid grid-cols-1 lg:grid-cols-2 lg:mr-[15%] lg:ml-[15%]">
 
-        <div class="col-span-1 pr-[10%]">
+        <div class="col-span-1 lg:pr-[10%]">
           <motion.div variants={FadeIn}>
             <div class="float-left">
 
               <div class="header text-[#d2d8ff] font-light">
-                <div class="text-[#F7C58A] text-sm">
+                <div class="text-[#F7C58A] text-xs md:text-sm">
                   {Content.Trace.Site}
                 </div>
-                <div class="text-white text-2xl font-semibold pb-8">
+                <div class="text-white text-lg md:text-2xl font-semibold pb-4 md:pb-8">
                   {Content.Trace.Title}
                 </div>
-                <div>
+                <div class="text-xs md:text-base">
                   {Content.Trace.Body}
                 </div>
               </div>
 
-              <div class="pt-8 text-xs text-[#d2d8ff]">
+              <div class="pt-8 md:text-xs text-[#d2d8ff]">
                 <div>
                   <a href="https://rubyonrails.org/" class="pr-4">
                     <span class="hover:text-[#F7C58A] link-underline">Ruby on Rails</span>
