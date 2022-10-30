@@ -6,7 +6,7 @@ function Contact() {
   return (
     <FadeInFunc>
       <motion.div variants={FadeIn}>
-        <div class="h-screen text-[#d2d8ff] pt-[35%] text-4xl w-[40%]">
+        <div class="h-screen text-[#d2d8ff] pt-[75%] lg:pt-[35%] lg:text-4xl w-[40%]">
           For all enquiries, or just to say hello, please get in touch.
             <div class="grid grid-cols-2 text-sm mt-8">
             <div class="text-[#d2d8ff]/75">
