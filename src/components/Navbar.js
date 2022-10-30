@@ -31,18 +31,18 @@ function Nav() {
   }
 
   return (
-    <nav class="sticky top-0 bg-[#4932D5]/70 pt-2 pb-4">
+    <nav class="sticky top-0 bg-[#4932D5]/70 pt-2 pb-4 z-10">
         <motion.div
         variants={container}
         initial="hidden"
         animate="show"
         >
-          <div class="text-xs lg:text-sm mt-8">
+          <div class="text-xs md:text-sm mt-8">
             <div class="flex justify-center md:justify-end">
 
-              <div class="absolute center-[0%] lg:left-[0%] -mt-6 lg:-mt-2 cursor-default">
+              <div class="absolute center-[0%] md:left-[0%] -mt-6 md:-mt-2 cursor-default">
                 <div class={faded ? "transition-opacity duration-300 ease-in opacity-100 hover:cursor-pointer" : "transition-opacity duration-300 ease-out opacity-0"}>
-                    <span class="text-white text-xs lg:text-lg font-bold"
+                    <span class="text-white text-xs md:text-lg font-bold"
                       onClick={() => {
                           window.scrollTo({top: 0, left: 0, behavior: 'smooth'});
                         }

@@ -49,6 +49,8 @@ function About() {
               RSpec <br />
             </div>
 
+            {/* text-[#F7C58A] */}
+
             <div class="text-xs md:text-base lg:text-lg font-light col-span-2 lg:col-span-1 leading-normal">
               Formerly I worked in Canada as a research biologist. It was here that I first developed an interest
               in programming; I'd look for any excuse to use R and create pretty, interactive graphs and maps

@@ -5,6 +5,7 @@
 @layer base {
   body {
     @apply bg-[#4932D5];
+    /* @apply bg-[#4932D5]; */
   }
 }
 
