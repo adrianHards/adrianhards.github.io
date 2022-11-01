@@ -16,10 +16,10 @@ function Header() {
           <div class="text-[#d2d8ff] text-base md:text-base tracking-normal font-light pb-[2%]">
             Hello, I'm
           </div>
-          <div class="text-white text-4xl md:text-6xl font-semibold  pb-[5%] md:pb-[2%] lg:pb-[1%]">
+          <div class="text-white text-5xl md:text-6xl font-semibold  pb-[5%] md:pb-[2%] lg:pb-[1%]">
             Adrian Hards.
           </div>
-          <div class="text-[#F7C58A] text-4xl md:text-5xl  pb-[5%] md:-[4%] lg:pb-[3%]">
+          <div class="text-[#F7C58A] text-4xl md:text-5xl  pb-[5%] md:pb-[2%] lg:pb-[3%]">
             Full Stack <br /> Web Developer
           </div>
           <div class="text-[#d2d8ff] md:text-base font-light pb-[9%] md:pb-[5%] lg:pb-[3%] w-full md:w-[500px] lg:w-[550px]">
