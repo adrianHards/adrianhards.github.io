@@ -30,8 +30,8 @@ function About() {
         <div class="h-screen lg:w-[65%] md:w-[80%] text-[#d2d8ff] m-auto pt-[35%] lg:pt-[15%]">
           <div class="grid grid-cols-1 md:grid-cols-2">
             <div class="text-sm md:text-2xl lg:text-4xl md:col-span-1 text-[#F7C58A] font-light md:pb-0 order-last md:order-first">
-              <div class="text-xs pt-6 md:pt-0 pb-4 md:pb-6 text-[#d2d8ff]">
-                Skills
+              <div class="text-xs pt-6 md:pt-0 pb-2 md:pb-6 text-[#d2d8ff]">
+                <strong>Skills</strong>
               </div>
               <div class="flex md:flex-col justify-between">
                 <div>
@@ -48,8 +48,8 @@ function About() {
             </div>
 
             <div class="text-sm w-full md:text-base lg:text-lg font-light md:col-span-1 leading-normal">
-              <div class="text-xs pb-4 md:pb-6 text-[#d2d8ff]">
-                About Me
+              <div class="text-xs pb-2 md:pb-6 text-[#d2d8ff]">
+                <strong>About Me</strong>
               </div>
               Formerly I worked in Canada as a research biologist. It was here that I first developed an interest
               in programming; I'd look for any excuse to use R and create pretty, interactive graphs and maps
