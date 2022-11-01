@@ -9,7 +9,7 @@ import { Element } from 'react-scroll'
 function App() {
 
   return (
-    <div className="App" class="ml-[10%] mr-[10%] lg:ml-[15%] lg:mr-[15%]">
+    <div className="App" class="ml-[12%] mr-[12%] lg:ml-[15%] lg:mr-[15%]">
       <Nav />
       <Header />
 

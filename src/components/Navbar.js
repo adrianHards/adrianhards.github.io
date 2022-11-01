@@ -37,12 +37,12 @@ function Nav() {
         initial="hidden"
         animate="show"
         >
-          <div class="text-xs md:text-sm mt-8">
+          <div class="text-sm md:text-sm mt-8">
             <div class="flex justify-center md:justify-end">
 
-              <div class="absolute center-[0%] md:left-[0%] -mt-6 md:-mt-2 cursor-default">
+              <div class="absolute center-[0%] md:left-[0%] -mt-7 md:-mt-2 cursor-default">
                 <div class={faded ? "transition-opacity duration-300 ease-in opacity-100 hover:cursor-pointer" : "transition-opacity duration-300 ease-out opacity-0"}>
-                    <span class="text-white text-xs md:text-lg font-bold"
+                    <span class="text-white text-sm md:text-lg font-bold"
                       onClick={() => {
                           window.scrollTo({top: 0, left: 0, behavior: 'smooth'});
                         }
