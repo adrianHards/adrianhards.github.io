@@ -8,13 +8,13 @@ import CleanRunnings from './Projects/CleanRunnings';
 function Project() {
   return (
   <div class="projects">
-      <FadeInFunc>
+      {/* <FadeInFunc>
         <Trace />
       </FadeInFunc>
 
       <FadeInFunc>
         <Find />
-      </FadeInFunc>
+      </FadeInFunc> */}
 
       <FadeInFunc>
         <Context />
@@ -23,10 +23,10 @@ function Project() {
       <FadeInFunc>
         <Reminders />
       </FadeInFunc>
-
+{/*
       <FadeInFunc>
         <CleanRunnings />
-      </FadeInFunc>
+      </FadeInFunc> */}
     </div>
   );
 }

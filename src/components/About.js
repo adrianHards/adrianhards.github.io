@@ -27,7 +27,7 @@ function About() {
     >
       <motion.div variants={fadeIn}>
 
-        <div class="h-screen lg:w-[65%] md:w-[80%] text-[#d2d8ff] m-auto pt-[35%] lg:pt-[15%]">
+        <div class="h-screen lg:w-[70%] md:w-[80%] text-[#d2d8ff] m-auto pt-[35%] md:pt-[25%] lg:pt-[15%]">
           <div class="grid grid-cols-1 md:grid-cols-2">
             <div class="text-sm md:text-2xl lg:text-4xl md:col-span-1 text-[#F7C58A] font-light md:pb-0 order-last md:order-first">
               <div class="text-xs pt-6 md:pt-0 pb-2 md:pb-6 text-[#d2d8ff]">
