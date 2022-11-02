@@ -8,18 +8,18 @@ import gif from '../../assets/find.gif'
 function Find() {
   return (
     <div class="flow-root pt-[10%]">
-      <div class="grid grid-cols-5 md:grid-cols-2 md:mr-[15%] md:ml-[15%]">
+      <div class="grid grid-cols-1 md:grid-cols-2 md:mr-[15%] md:ml-[15%]">
 
-        <div class="col-span-2 md:col-span-1">
+        <div class="col-span-1">
           <motion.div variants={FromLeft}>
-            <div class="figure rounded-md md:w-[80%] lg:w-[60%] md:ml-auto">
+            <div class="figure rounded-md w-[55%] m-auto md:w-[80%] lg:w-[60%] md:m-0 md:ml-auto pt-4 md:pt-0">
               <img class="image-main object-contain image-main rounded-md" src={still} alt=""></img>
               <img class="image-hover object-contain image-main rounded-md" src={gif} alt=""></img>
             </div>
           </motion.div>
         </div>
 
-        <div class="col-span-3 md:col-span-1 pl-[10%]">
+        <div class="col-span-1 pl-[10%] order-first md:order-none">
           <motion.div variants={FadeIn}>
             <div class="float-left">
               <div class="header text-[#d2d8ff] font-light">
