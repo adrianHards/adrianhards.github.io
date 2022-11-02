@@ -10,11 +10,11 @@ function Project() {
   <div class="projects">
       {/* <FadeInFunc>
         <Trace />
-      </FadeInFunc>
+      </FadeInFunc> */}
 
       <FadeInFunc>
         <Find />
-      </FadeInFunc> */}
+      </FadeInFunc>
 
       <FadeInFunc>
         <Context />

@@ -8,29 +8,28 @@ import gif from '../../assets/find.gif'
 function Find() {
   return (
     <div class="flow-root pt-[10%]">
-      <div class="grid grid-cols-2 mr-[15%] ml-[15%]">
+      <div class="grid grid-cols-5 md:grid-cols-2 md:mr-[15%] md:ml-[15%]">
 
-        <div class="col-span-1">
+        <div class="col-span-2 md:col-span-1">
           <motion.div variants={FromLeft}>
-            <div class="figure rounded-md">
+            <div class="figure rounded-md md:w-[80%] lg:w-[60%] md:ml-auto">
               <img class="image-main object-contain image-main rounded-md" src={still} alt=""></img>
               <img class="image-hover object-contain image-main rounded-md" src={gif} alt=""></img>
             </div>
           </motion.div>
         </div>
 
-        <div class="col-span-1 pl-[10%]">
+        <div class="col-span-3 md:col-span-1 pl-[10%]">
           <motion.div variants={FadeIn}>
             <div class="float-left">
-
               <div class="header text-[#d2d8ff] font-light">
-                <div class="text-[#F7C58A] text-sm">
+                <div class="text-[#F7C58A] text-xs md:text-sm">
                   {Content.Find.Site}
                 </div>
-                <div class="text-white text-2xl font-semibold pb-8">
+                <div class="text-white text-lg md:text-2xl font-semibold pb-4 md:pb-6 lg:pb-8">
                   {Content.Find.Title}
                 </div>
-                <div>
+                <div class="text-sm md:text-sm lg:text-base">
                   A web app developed for <span class="hover:text-[#F7C58A] text-[#F7C58A] font-semibold link-underline"><a href="https://hackforpeace.net/">Hack For Peace</a></span>,
                   a cross-European hackathon in which over 200 developers and entrepreneurs came together to create anti-war tech products.
                   Find enables hospitals to create a database of unidentified patients. Members of the public then upload photos of their missing loved ones, which,
@@ -38,11 +37,14 @@ function Find() {
                 </div>
               </div>
 
-              <div class="pt-8 text-xs text-[#d2d8ff]">
+              <div class="pt-4 md:pt-8 text-xs text-[#d2d8ff]">
                 <div>
                   <a href="https://rubyonrails.org/" class="pr-4">
                     <span class="hover:text-[#F7C58A] link-underline">Ruby on Rails</span>
                   </a>
+                  <span class="pr-4">
+                    <span class="">API</span>
+                  </span>
                 </div>
 
                 <div class="flex">
