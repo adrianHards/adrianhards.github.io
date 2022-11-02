@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import FadeIn from '../Animation/FadeIn'
+import FromLeft from '../Animation/FromLeft'
 import FromRight from '../Animation/FromRight'
 import Content from './Content'
 import still from '../../assets/context.png'
@@ -10,7 +10,7 @@ function Context() {
     <div class="flow-root pt-[10%]">
       <div class="grid grid-cols-1 md:grid-cols-4">
           <div class="col-span-1 lg:pr-[10%] relative text-[#d2d8ff]">
-            <motion.div variants={FadeIn}>
+            <motion.div variants={FromLeft}>
 
               <div class="float-right">
                 <div class="header text-[#d2d8ff] font-light">

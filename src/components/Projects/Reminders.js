@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import FromLeft from '../Animation/FromLeft'
-import FadeIn from '../Animation/FadeIn'
+import FromRight from '../Animation/FromRight'
 import Content from './Content'
 import still from '../../assets/reminder.png'
 import gif from '../../assets/reminder.gif'
@@ -10,7 +10,7 @@ function Reminders() {
     <div class="flow-root pt-[10%]">
       <div class="grid grid-cols-1 md:grid-cols-4">
       <div class="col-span-1 md:col-span-3 order-last md:order-none pt-4 md:pt-0">
-          <motion.div variants={FromLeft}>
+          <motion.div variants={FromRight}>
             <div class="figure md:mr-[5%]">
               <img class="image-main object-contain image-main rounded-md" src={still} alt=""></img>
               <img class="image-hover object-contain image-main rounded-md" src={gif} alt=""></img>
@@ -19,7 +19,7 @@ function Reminders() {
         </div>
 
         <div class="col-span-1 lg:pr-[10%] relative text-[#d2d8ff]">
-          <motion.div variants={FadeIn} class="col-span-1">
+          <motion.div variants={FromLeft} class="col-span-1">
             <div class="float-right">
               <div class="header text-[#d2d8ff] font-light">
               <div class="text-[#F7C58A] text-xs md:text-sm">
