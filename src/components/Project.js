@@ -1,9 +1,9 @@
 import FadeInFunc from './Animation/FadeInFunc'
-import Trace from './Projects/Trace';
 import Find from './Projects/Find';
 import Context from './Projects/Context';
 import Reminders from './Projects/Reminders';
-import CleanRunnings from './Projects/CleanRunnings';
+// import Trace from './Projects/Trace';
+// import CleanRunnings from './Projects/CleanRunnings';
 
 function Project() {
   return (

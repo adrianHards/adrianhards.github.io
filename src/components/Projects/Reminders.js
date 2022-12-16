@@ -7,7 +7,7 @@ import gif from '../../assets/reminder.gif'
 
 function Reminders() {
   return (
-    <div class="flow-root pt-[10%]">
+    <div class="flow-root mt-[10%]">
       <div class="grid grid-cols-1 md:grid-cols-4">
       <div class="col-span-1 md:col-span-3 order-last md:order-none pt-4 md:pt-0">
           <motion.div variants={FromRight}>
