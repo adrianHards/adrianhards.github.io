@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 import FadeIn from './Animation/FadeIn'
 import FadeInFunc from './Animation/FadeInFunc'
 
-function Contact() {
+const Contact = () => {
   return (
     <FadeInFunc>
       <motion.div variants={FadeIn}>

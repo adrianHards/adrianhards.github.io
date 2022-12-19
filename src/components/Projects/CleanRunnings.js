@@ -5,7 +5,7 @@ import Content from './Content'
 import still from '../../assets/clean.png'
 import gif from '../../assets/clean.gif'
 
-function CleanRunnings() {
+const CleanRunnings = () => {
   return (
     <div class="flow-root pt-[10%]">
       <div class="grid grid-cols-4">

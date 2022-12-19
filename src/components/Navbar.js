@@ -2,7 +2,7 @@ import { motion } from "framer-motion"
 import { useState } from 'react';
 import { Link } from 'react-scroll'
 
-function Nav() {
+const Nav = () => {
   const [ faded, setFade ] = useState(false)
   const setFaded = () => {
     if (window.scrollY >= 550) {

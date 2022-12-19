@@ -1,4 +1,4 @@
-function Footer() {
+const Footer = () => {
   return (
     <footer class="">
       <span class="block text-sm text-[#D2D9FF] text-center mb-4">
@@ -9,3 +9,4 @@ function Footer() {
 }
 
 export default Footer;
+

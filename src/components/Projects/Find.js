@@ -5,7 +5,7 @@ import FadeIn from '../Animation/FadeIn'
 import still from '../../assets/find.png'
 import gif from '../../assets/find.gif'
 
-function Find() {
+const Find = () => {
   return (
     <div class="flow-root pt-[10%]">
       <div class="grid grid-cols-1 md:grid-cols-2 md:mr-[15%] md:ml-[15%]">

@@ -1,6 +1,6 @@
 import { motion } from "framer-motion"
 
-function Header() {
+const Header = () => {
   return (
     <div className="Header">
       <motion.div

@@ -7,7 +7,7 @@ const fadeIn = {
   hidden: { opacity: 0, y: 50 }
 };
 
-function About() {
+const About = () => {
   const controls = useAnimation();
   const [ref, inView] = useInView();
 

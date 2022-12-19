@@ -5,7 +5,7 @@ import Content from './Content'
 import still from '../../assets/reminder.png'
 import gif from '../../assets/reminder.gif'
 
-function Reminders() {
+const Reminders = () => {
   return (
     <div class="flow-root mt-[10%]">
       <div class="grid grid-cols-1 md:grid-cols-4">

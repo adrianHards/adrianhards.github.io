@@ -5,7 +5,7 @@ import Reminders from './Projects/Reminders';
 // import Trace from './Projects/Trace';
 // import CleanRunnings from './Projects/CleanRunnings';
 
-function Project() {
+const Project = () => {
   return (
   <div class="projects">
       {/* <FadeInFunc>

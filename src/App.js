@@ -6,7 +6,7 @@ import Contact from './components/Contact';
 import Footer from './components/Footer';
 import { Element } from 'react-scroll'
 
-function App() {
+const App = () => {
 
   return (
     <div className="App" class="ml-[12%] mr-[12%] lg:ml-[15%] lg:mr-[15%]">
